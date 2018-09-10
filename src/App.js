@@ -5,11 +5,13 @@ import Landing from './components/Landing';
 import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
+import Intro from './components/Intro';
 class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div className="app">
+          <Intro />
           <Route exact path="/" component={Landing} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/about" component={About} />
