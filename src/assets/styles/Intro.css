@@ -11,8 +11,7 @@
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .intro-logo:hover {
-  border: 5px #00e1b6 solid;
-  animation: blink 1s linear infinite;
+  background: #00e1b6;
 }
 
 @keyframes blink {
@@ -108,4 +107,119 @@
 .btn-contact:hover {
   background: #00e1b6;
   color: #fff;
+}
+
+.close-btn {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  line-height: 50px;
+  display: inline-block;
+  z-index: 0;
+}
+.close-btn:before,
+.close-btn:after {
+  transform: rotate(-45deg);
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -25px;
+  display: block;
+  height: 10px;
+  width: 50px;
+  background-color: #445561;
+  transition: all 0.25s ease-out;
+}
+.close-btn:after {
+  transform: rotate(-135deg);
+}
+.close-btn:hover:before,
+.close-btn:hover:after {
+  transform: rotate(0deg);
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.slow {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.slower {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fadeOutUpBig {
+  from {
+  }
+
+  to {
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+}
+
+@keyframes fadeOutUpBig {
+  from {
+  }
+
+  to {
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+}
+
+.fadeOutUpBig {
+  -webkit-animation-name: fadeOutUpBig;
+  animation-name: fadeOutUpBig;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@media (prefers-reduced-motion) {
+  .animated {
+    -webkit-animation: unset !important;
+    animation: unset !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
 }
