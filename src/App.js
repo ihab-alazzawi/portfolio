@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 import Intro from './components/Intro';
+import Footer from './components/Footer';
 class App extends Component {
   render() {
     return (
@@ -16,6 +17,7 @@ class App extends Component {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
+          <Footer />
         </div>
       </Router>
     );
