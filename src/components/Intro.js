@@ -30,7 +30,7 @@ class Intro extends Component {
             to="/"
             className={
               visible
-                ? 'animated fadeOutUpBig slower intro-logo'
+                ? 'animated fadeOutUpBig slow intro-logo'
                 : 'animated fadeInDown intro-logo'
             }
           >
@@ -40,7 +40,7 @@ class Intro extends Component {
             to="/"
             className={
               visible
-                ? 'animated fadeOutUpBig slower btn-landing'
+                ? 'animated fadeOutUpBig slow btn-landing'
                 : 'animated fadeInDown btn-landing'
             }
           >
@@ -50,7 +50,7 @@ class Intro extends Component {
             to="/projects"
             className={
               visible
-                ? 'animated fadeOutUpBig slower btn-projects'
+                ? 'animated fadeOutUpBig slow btn-projects'
                 : 'animated fadeInDown btn-projects'
             }
           >
@@ -60,7 +60,7 @@ class Intro extends Component {
             to="/about"
             className={
               visible
-                ? 'animated fadeOutUpBig slower btn-about'
+                ? 'animated fadeOutUpBig slow btn-about'
                 : 'animated fadeInDown btn-about'
             }
           >
@@ -70,7 +70,7 @@ class Intro extends Component {
             to="/contact"
             className={
               visible
-                ? 'animated fadeOutUpBig slower btn-contact'
+                ? 'animated fadeOutUpBig slow btn-contact'
                 : 'animated fadeInDown btn-contact'
             }
           >
