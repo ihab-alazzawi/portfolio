@@ -2,7 +2,7 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  z-index: 1;
+  z-index: 11;
   border: 5px solid #00e1b6;
   width: 100px;
   height: 100px;
@@ -22,9 +22,9 @@
 .logo-text {
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: 46%;
   font-size: 100px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poiret One', 'cursive';
   margin: -50px;
   color: #445561;
 }
@@ -43,6 +43,7 @@
   letter-spacing: 0.1em;
   color: #445561;
   background: #fff;
+  z-index: 10;
 }
 .btn-landing:hover {
   background: #00e1b6;
@@ -63,6 +64,7 @@
   letter-spacing: 0.1em;
   color: #445561;
   background: #eee;
+  z-index: 10;
 }
 .btn-projects:hover {
   background: #00e1b6;
@@ -83,6 +85,7 @@
   letter-spacing: 0.1em;
   color: #445561;
   background: #eee;
+  z-index: 10;
 }
 .btn-about:hover {
   background: #00e1b6;
@@ -103,6 +106,7 @@
   letter-spacing: 0.1em;
   color: #445561;
   background: #fff;
+  z-index: 10;
 }
 .btn-contact:hover {
   background: #00e1b6;
