@@ -1,0 +1,20 @@
+header {
+  padding: 5%;
+}
+
+header > div > i {
+  padding: 10px;
+  color: #eee;
+}
+
+header > div > i:hover {
+  color: #445561;
+  cursor: pointer;
+}
+
+.resume {
+  writing-mode: vertical-lr;
+  font-family: 'Poiret One', 'cursive';
+  font-size: 20px;
+  margin: 0 auto;
+}
