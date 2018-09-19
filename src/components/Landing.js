@@ -29,10 +29,10 @@ class Landing extends Component {
           </h1>
           <h2>FULL-STACK JAVASCRIPT ENGINEER</h2>
         </scroll-page>
-        <div id={scrollTo ? 'scroll-bot' : 'scroll-top'} className="scrl">
+        <div id={scrollTo ? 'scroll-top' : 'scroll-bot'} className="scrl">
           <a
             onClick={this.handleScroll}
-            href={scrollTo ? '#landing' : '#skills'}
+            href={scrollTo ? '#skills' : '#landing'}
           >
             <span />
             <span />
