@@ -6,7 +6,7 @@ footer {
   width: 100%;
   text-align: center;
   background: #445561;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poiret One', 'cursive';
   color: #eee;
-  z-index: -1;
+  z-index: 1;
 }
