@@ -10,7 +10,7 @@
 
 .left-half > h1 {
   font-size: 5vw;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poiret One', 'cursive';
   margin: 0 0 0.75rem 0;
   text-decoration: none;
   text-transform: uppercase;
@@ -20,7 +20,7 @@
 
 .contact-info > h2 {
   font-size: 1.2rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poiret One', 'cursive';
   margin: 0 0 0.75rem 0;
   padding-top: 20px;
   text-decoration: none;
@@ -32,7 +32,7 @@
 
 .contact-info > a {
   font-size: 1.2rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poiret One', 'cursive';
   margin: 0 0 0.75rem 0;
   padding-top: 20px;
   text-decoration: none;
@@ -42,7 +42,7 @@
 }
 
 .contact-info > p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poiret One', 'cursive';
   font-size: 20px;
   font-weight: 500;
   line-height: 22px;
@@ -66,9 +66,9 @@
 }
 
 .left-half > p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poiret One', 'cursive';
   font-size: 20px;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 22px;
   text-align: justify;
   text-justify: inter-word;
