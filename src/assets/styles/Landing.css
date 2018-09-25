@@ -24,7 +24,7 @@ scroll-page {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #445561;
+  color: #2f3441;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -47,7 +47,7 @@ scroll-page {
 }
 
 #skills {
-  background-color: #445561;
+  background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
   min-height: 100vh;
 }
 
