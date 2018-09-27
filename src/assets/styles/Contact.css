@@ -4,7 +4,222 @@
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
+  z-index: 1;
   text-align: center;
-  background-color: #fff;
+  background-color: #00e1b6;
+}
+
+.contact-main > h1 {
+  font-size: 5vw;
+  font-family: 'Poiret One', 'cursive';
+  margin: 0 0 0.75rem 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #2f3441;
+}
+.contact-main > p {
+  width: 50px;
+  max-height: 4px;
+  max-width: 50px;
+  min-height: 4px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #2f3441;
+}
+
+#feedback-page {
+  text-align: center;
+}
+
+#text-feedback {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: white;
+  text-align: center;
+}
+
+#form-main {
+  width: 100%;
+  float: left;
+  padding-top: 30px;
+}
+
+#form-div {
+  background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-left: -260px;
+}
+
+.feedback-input {
+  opacity: 0.9;
+  color: #212531;
+  font-family: 'Poiret One', 'cursive';
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  border: 3px solid #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #00e1b6;
+  color: #212531;
+  outline: none;
+}
+
+.focused {
+  color: #212531;
+  border: #00e1b1 solid 3px;
+}
+
+.invalid {
+  border: 3px solid #ff3030;
+  color: #ff3030;
+}
+
+.invalid-text {
+  font-family: 'Poiret One', 'cursive';
+  margin-top: -20px;
+  text-align: left;
+  color: #ff3030;
+}
+
+.invalid-submit {
+  color: #ff3030;
+  font-family: 'Poiret One', 'cursive';
+  font-weight: bold;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+}
+.success-submit {
+  color: #00e1b6;
+  font-family: 'Poiret One', 'cursive';
+  font-weight: bold;
+  line-height: 3;
+  margin: 0;
+  padding: 0;
+}
+
+#name {
+  background-image: url('../img/contact/name.svg');
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#name:focus {
+  background-image: url('../img/contact/name.svg');
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email {
+  background-image: url('../img/contact/email.svg');
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#email:focus {
+  background-image: url('../img/contact/email.svg');
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#message {
+  background-image: url('../img/contact/message.svg');
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+#message:focus {
+  background-image: url('../img/contact/message.svg');
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  background-color: white;
+}
+
+#button-big {
+  font-family: 'Poiret One', 'cursive';
+  float: left;
+  width: 100%;
+  cursor: pointer;
+  background-color: #eee;
+  color: #445561;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 22px 0 22px 0;
+  margin: 0;
+  transition: all 0.3s;
+}
+
+#button-big:hover {
+  background-color: rgba(47, 52, 65, 0.9);
+  color: #ffffff;
+}
+
+.submit:hover {
+  color: #00e1b6;
+}
+
+.ease {
+  width: 0px;
+  height: 0px;
+  background-color: #fbfbfb;
+  transition: all 0.3s ease;
+}
+
+.submit:hover .ease {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+@media only screen and (max-width: 580px) {
+  #form-div {
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .contact-main > h1 {
+    font-size: 9vw;
+  }
 }
