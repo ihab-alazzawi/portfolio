@@ -2,12 +2,12 @@ header {
   padding: 5%;
 }
 
-header > div > i {
+header > div > a > i {
   padding: 10px;
   color: #eee;
 }
 
-header > div > i:hover {
+header > div > a > i:hover {
   color: #2f3441;
   cursor: pointer;
 }
