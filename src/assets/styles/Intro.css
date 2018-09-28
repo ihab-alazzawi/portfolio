@@ -14,11 +14,6 @@
   background: #00e1b6;
 }
 
-@keyframes blink {
-  50% {
-    border-color: #fff;
-  }
-}
 .logo-text {
   position: fixed;
   top: 50%;
