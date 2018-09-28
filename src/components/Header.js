@@ -21,7 +21,11 @@ const Header = () => (
       >
         <i className="fab fa-facebook fa-2x" />
       </a>
-      <a href="portfolio/Resume.pdf" target="_blank" rel="noopener noreferrer">
+      <a
+        href="/ihab-alazzawi/portfolio/raw/gh-pages/Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {' '}
         <i className="fas fa-cloud-download-alt fa-2x">
           <p className="resume">RESUME</p>
