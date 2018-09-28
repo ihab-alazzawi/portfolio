@@ -22,7 +22,7 @@ const Header = () => (
         <i className="fab fa-facebook fa-2x" />
       </a>
       <a
-        href="/ihab-alazzawi/portfolio/raw/gh-pages/Resume.pdf"
+        href="https://github.com/ihab-alazzawi/portfolio/raw/gh-pages/Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
