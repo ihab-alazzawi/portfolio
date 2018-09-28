@@ -60,7 +60,7 @@ class Contact extends Component {
       data: {
         name: this.state.name,
         email: this.state.email,
-        message: this.state.text
+        message: this.state.message
       }
     })
       .then(res => {
@@ -71,7 +71,6 @@ class Contact extends Component {
             email: '',
             message: ''
           });
-          console.log(this.state.success);
         }
       })
       .catch(err => {
@@ -80,7 +79,6 @@ class Contact extends Component {
           this.setState({
             errors: 'Please complete the form before sending.'
           });
-          console.log(this.state.errors);
         } else {
           this.setState({
             errors: 'Uh-oh, something went wrong. Please try again.',
@@ -88,7 +86,6 @@ class Contact extends Component {
             email: '',
             message: ''
           });
-          console.log(this.state.errors);
         }
       });
   }
