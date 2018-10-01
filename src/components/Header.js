@@ -26,7 +26,6 @@ const Header = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        {' '}
         <i className="fas fa-cloud-download-alt fa-2x">
           <p className="resume">RESUME</p>
         </i>
