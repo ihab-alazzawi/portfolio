@@ -4,7 +4,7 @@ import '../assets/styles/Header.css';
 const Header = () => (
   <header>
     <div>
-      <a href="mailto:info@ihab.io?subject=Hi%20there!">
+      <a href="mailto:ihab.alazzawi@outlook.com?subject=Hi%20there!">
         <i className="fas fa-envelope fa-2x" />
       </a>
       <a

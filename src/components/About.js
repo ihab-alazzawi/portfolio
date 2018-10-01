@@ -17,7 +17,6 @@ const About = () => (
         today's apps, websites, and products.
       </p>
       <p>
-        {' '}
         I live in Cedar Park Texas a city very close to Austin, I was born in
         1985 and I graduated from Baghdad University with AS degree in Computer
         Science in 2006 and started my career in web development since then.
@@ -34,7 +33,9 @@ const About = () => (
           I’m always open to new opportunities, freelance work, Email me if
           you'd like to work together.
         </p>
-        <a href="mailto:info@ihab.io?subject=Hi%20there!">info@ihab.io</a>
+        <a href="mailto:ihab.alazzawi@outlook.com?subject=Hi%20there!">
+          ihab.alazzawi@outlook.com
+        </a>
       </div>
     </div>
     <picture className="right-half">
