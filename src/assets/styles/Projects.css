@@ -1,7 +1,7 @@
 .projects-container {
   font-family: sans-serif;
   box-sizing: border-box;
-  background: #00e1b6;
+  background: #eee;
   min-height: 100vh;
 }
 
@@ -13,7 +13,7 @@
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.1em;
-  color: #2f3441;
+  color: #00e1b6;
 }
 .projects-container > p {
   width: 50px;
@@ -42,14 +42,16 @@
   align-items: center;
   max-width: 100%;
   padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 .box-item {
   backface-visibility: hidden;
   flex-grow: 1;
   flex-basis: 400px;
+  max-width: 500px;
   text-align: center;
-  padding: 3%;
+  padding: 1vh;
 }
 
 .flip-box {
@@ -60,10 +62,12 @@
 
 .flip-box-front,
 .flip-box-back {
-  background: linear-gradient(to right bottom, #ffffff 50%, #eeeeee 50%);
+  background: #fff;
   min-height: 475px;
   transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
   backface-visibility: hidden;
+  border: 5px solid #00e1b6;
+  box-shadow: 0 15px 35px rgba(50, 50, 90, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
 }
 
 .flip-box-front {
@@ -102,6 +106,11 @@
   top: 50%;
 }
 
+.project-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .flip-box-header {
   font-family: 'Poiret One', 'cursive';
   font-size: 34px;
@@ -125,41 +134,36 @@
   font-weight: bold;
 }
 
-.flip-box-button-top {
-  position: absolute;
+.flip-box-button-left {
+  position: fixed;
   left: 0;
-  top: 0;
-  border: none;
-  border-bottom: 2px solid #dddddd;
+  bottom: 10px;
+  border-bottom: 2px solid #2f3441;
   color: #2f3441;
   cursor: pointer;
+  font-family: 'Poiret One', 'cursive';
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
-  text-transform: uppercase;
-  transform: rotate(-90deg);
+  margin-left: 10px;
 }
 
-.flip-box-button-bottom {
-  position: absolute;
+.flip-box-button-right {
+  position: fixed;
   right: 0;
-  bottom: 0;
-  border: none;
-  border-bottom: 2px solid #ffffff;
+  bottom: 10px;
+  border-bottom: 2px solid #2f3441;
   color: #2f3441;
   cursor: pointer;
+  font-family: 'Poiret One', 'cursive';
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
-  text-transform: uppercase;
-  transform: rotate(-90deg);
-}
-.hover-top:hover {
-  color: #dddddd;
+  margin-right: 10px;
 }
 
-.hover-bottom:hover {
-  color: #ffffff;
+.hover-btn:hover {
+  color: #dddddd;
 }
 
 @media (max-width: 600px) {
@@ -169,5 +173,11 @@
 
   .projects-container > h1 {
     font-size: 10vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .flip-box p {
+    line-height: 1em;
   }
 }
