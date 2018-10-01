@@ -4,11 +4,11 @@ header {
 
 header > div > a > i {
   padding: 10px;
-  color: #eee;
+  color: #2f3441;
 }
 
 header > div > a > i:hover {
-  color: #2f3441;
+  color: #eee;
   cursor: pointer;
 }
 

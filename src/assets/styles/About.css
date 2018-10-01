@@ -16,7 +16,7 @@
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.1em;
-  color: #2f3441;
+  color: #00e1b6;
 }
 
 .contact-info > h2 {
@@ -28,8 +28,8 @@
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.1em;
-  color: #2f3441;
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  color: #00e1b6;
+  border-top: 1px solid rgba(0, 225, 182, 0.25);
 }
 
 .contact-info > a {
@@ -41,12 +41,12 @@
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #eee;
+  color: #2f3441;
 }
 
 .contact-info > a:hover {
   cursor: pointer;
-  color: #2f3441;
+  color: #fff;
 }
 
 .contact-info > p {
@@ -56,7 +56,7 @@
   line-height: 22px;
   letter-spacing: 0.1em;
   text-align: left;
-  color: #eee;
+  color: #2f3441;
 }
 
 .about-line {
@@ -70,8 +70,9 @@
 }
 
 .left-half {
-  background-color: #00e1b6;
+  background-color: #eee;
   flex: 1;
+  border-right: 5px solid #00e1b6;
   padding: 1rem;
 }
 
@@ -82,7 +83,8 @@
   line-height: 22px;
   text-align: left;
   letter-spacing: 0.1em;
-  color: #eee;
+
+  color: #2f3441;
 }
 
 .right-half {
